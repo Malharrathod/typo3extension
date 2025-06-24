@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:typo3extension/Resources/Private/Language/locallang_csh_tx_typo3extension_domain_model_typo3extension.xlf" date="2025-06-24T07:27:43Z" product-name="typo3extension">
+		<header/>
+		<body>
+			<trans-unit id="name.description" resname="name.description">
+				<source>name</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

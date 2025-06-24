@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:typo3extension/Resources/Private/Language/locallang.xlf" date="2025-06-24T07:27:43Z" product-name="typo3extension">
+		<header/>
+		<body>
+			<trans-unit id="tx_typo3extension_domain_model_typo3extension" resname="tx_typo3extension_domain_model_typo3extension">
+				<source>Typo3extension</source>
+			</trans-unit>
+			<trans-unit id="tx_typo3extension_domain_model_typo3extension.description" resname="tx_typo3extension_domain_model_typo3extension.description">
+				<source>Typo3extension</source>
+			</trans-unit>
+			<trans-unit id="tx_typo3extension_domain_model_typo3extension.name" resname="tx_typo3extension_domain_model_typo3extension.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_typo3extension_domain_model_typo3extension.name.description" resname="tx_typo3extension_domain_model_typo3extension.name.description">
+				<source>Name</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,14 @@
+plugin.tx_typo3extension_typo3extensin {
+    view {
+        # cat=plugin.tx_typo3extension_typo3extensin/file; type=string; label=Path to template root (FE)
+        templateRootPath = EXT:typo3extension/Resources/Private/Templates/
+        # cat=plugin.tx_typo3extension_typo3extensin/file; type=string; label=Path to template partials (FE)
+        partialRootPath = EXT:typo3extension/Resources/Private/Partials/
+        # cat=plugin.tx_typo3extension_typo3extensin/file; type=string; label=Path to template layouts (FE)
+        layoutRootPath = EXT:typo3extension/Resources/Private/Layouts/
+    }
+    persistence {
+        # cat=plugin.tx_typo3extension_typo3extensin//a; type=string; label=Default storage PID
+        storagePid =
+    }
+}

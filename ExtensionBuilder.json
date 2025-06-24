@@ -1,0 +1,235 @@
+{
+    "modules": [
+        {
+            "config": {
+                "position": [
+                    74.07194746667767,
+                    -43.17270825053971
+                ]
+            },
+            "name": "Typo3extension",
+            "value": {
+                "actionGroup": {
+                    "_default0_index": false,
+                    "_default1_list": true,
+                    "_default2_show": true,
+                    "_default3_new_create": true,
+                    "_default4_edit_update": true,
+                    "_default5_delete": true,
+                    "customActions": []
+                },
+                "name": "Typo3extension",
+                "objectsettings": {
+                    "addDeletedField": true,
+                    "addHiddenField": true,
+                    "addStarttimeEndtimeFields": true,
+                    "aggregateRoot": true,
+                    "controllerScope": "Frontend",
+                    "categorizable": false,
+                    "description": "",
+                    "mapToTable": "",
+                    "parentClass": "",
+                    "sorting": false,
+                    "type": "Entity",
+                    "uid": "89a11b08-90fe-4493-960e-0a692116382e"
+                },
+                "propertyGroup": {
+                    "properties": [
+                        {
+                            "allowedFileTypes": "",
+                            "propertyDescription": "",
+                            "propertyIsL10nModeExclude": false,
+                            "propertyIsNullable": false,
+                            "propertyIsRequired": false,
+                            "propertyName": "name",
+                            "propertyType": "String",
+                            "typeSelect": {
+                                "selectboxValues": "",
+                                "renderType": "selectSingle",
+                                "foreignTable": "",
+                                "whereClause": ""
+                            },
+                            "typeText": {
+                                "enableRichtext": false
+                            },
+                            "typeNumber": {
+                                "enableSlider": false,
+                                "steps": 1,
+                                "setRange": false,
+                                "upperRange": 255,
+                                "lowerRange": 0
+                            },
+                            "typeColor": {
+                                "setValuesColorPicker": false,
+                                "colorPickerValues": ""
+                            },
+                            "typeBoolean": {
+                                "renderType": "default",
+                                "booleanValues": ""
+                            },
+                            "typePassword": {
+                                "renderPasswordGenerator": false
+                            },
+                            "typeDateTime": {
+                                "dbTypeDateTime": "",
+                                "formatDateTime": ""
+                            },
+                            "typeFile": {
+                                "allowedFileTypes": ""
+                            },
+                            "size": "30",
+                            "rows": "10",
+                            "minItems": "",
+                            "maxItems": "",
+                            "uid": "a31c94c8-6a3f-40ba-817d-5042efb2b465"
+                        }
+                    ]
+                },
+                "relationGroup": {
+                    "relations": []
+                }
+            }
+        }
+    ],
+    "properties": {
+        "backendModules": [],
+        "description": "Typo3 Demo extension",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 12.4.0-13.4.99",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "generateDocumentationTemplate": false,
+            "generateEditorConfig": true,
+            "generateEmptyGitRepository": true,
+            "sourceLanguage": "en",
+            "state": "stable",
+            "targetVersion": "12.4",
+            "version": "0.0.1"
+        },
+        "extensionKey": "typo3extension",
+        "name": "Typo3 Extension",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "rathodm1996@gmail.com",
+                "name": "Malhar Rathod",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [
+            {
+                "actions": {
+                    "controllerActionCombinations": "",
+                    "noncacheableActions": ""
+                },
+                "description": "",
+                "key": "typo3extensin",
+                "name": "Typo3 Extension"
+            }
+        ],
+        "vendorName": "Typo3"
+    },
+    "wires": [],
+    "nodes": [
+        {
+            "id": "dndnode_0",
+            "type": "customModel",
+            "position": {
+                "x": 74.07194746667767,
+                "y": -43.17270825053971
+            },
+            "data": {
+                "label": "Typo3extension",
+                "objectType": "",
+                "isAggregateRoot": true,
+                "controllerScope": "Frontend",
+                "enableSorting": false,
+                "addDeletedField": true,
+                "addHiddenField": true,
+                "addStarttimeEndtimeFields": true,
+                "enableCategorization": false,
+                "description": "",
+                "mapToExistingTable": "",
+                "extendExistingModelClass": "",
+                "actions": {
+                    "actionIndex": false,
+                    "actionList": true,
+                    "actionShow": true,
+                    "actionNewCreate": true,
+                    "actionEditUpdate": true,
+                    "actionDelete": true
+                },
+                "customActions": [],
+                "properties": [
+                    {
+                        "name": "name",
+                        "type": "String",
+                        "description": "",
+                        "isRequired": false,
+                        "isNullable": false,
+                        "isExcludeField": false,
+                        "isl10nModeExlude": false,
+                        "typeSelect": {
+                            "selectboxValues": "",
+                            "renderType": "selectSingle",
+                            "foreignTable": ""
+                        },
+                        "typeText": {
+                            "enableRichtext": false
+                        },
+                        "typeNumber": {
+                            "enableSlider": false,
+                            "steps": 1,
+                            "setRange": false,
+                            "upperRange": 255,
+                            "lowerRange": 0
+                        },
+                        "typeColor": {
+                            "setValuesColorPicker": false,
+                            "colorPickerValues": ""
+                        },
+                        "typeBoolean": {
+                            "renderType": "default",
+                            "booleanValues": ""
+                        },
+                        "typePassword": {
+                            "renderPasswordGenerator": false
+                        },
+                        "typeDateTime": {
+                            "dbTypeDateTime": "",
+                            "formatDateTime": ""
+                        },
+                        "typeFile": {
+                            "allowedFileTypes": ""
+                        },
+                        "size": "",
+                        "minItems": "",
+                        "maxItems": ""
+                    }
+                ],
+                "relations": []
+            },
+            "dragHandle": ".drag-handle",
+            "draggable": true,
+            "width": 300,
+            "height": 739,
+            "selected": true,
+            "positionAbsolute": {
+                "x": 74.07194746667767,
+                "y": -43.17270825053971
+            },
+            "dragging": false
+        }
+    ],
+    "edges": [],
+    "storagePath": "\/var\/www\/html\/packages\/",
+    "log": {
+        "last_modified": "2025-06-24 07:27",
+        "extension_builder_version": "v12.0.0-beta.2",
+        "be_user": " (1)"
+    }
+}
